@@ -26,7 +26,7 @@ For measuring the ABX phoneme discrimination score, please follow the instructio
 
 https://github.com/zerospeech/zerospeech2021
 
-You can use the template provided at "abx.sh" to obtain abx score for different layers (0:11) of any specific model (specified by the path to the bundle file of the model). 
+You can use the template provided at "abx.sh" to obtain ABX score for different layers (0:11) of any specific model (specified by the path to the bundle file of the model). 
 
 For test data, you need to download dev-clean subset of LibriSpeech data from https://www.openslr.org/12 .
 
