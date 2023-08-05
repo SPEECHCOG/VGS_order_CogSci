@@ -18,6 +18,10 @@ The VGS+ model combines a wav2vec 2.0-based speech self-supervised learning (SSL
 
 # How to Use
 
+## Phoneme discrimination score
+
+For obtaining the speech representations from a hidden layer of the speech encoder and decoder you need to run "abx.py" file. As input you need to provide the target layer (0:11) and the path to the model's bundle file.
+
 For measuring the ABX phoneme discrimination score, please follow the instructions in following repository:
 
 https://github.com/zerospeech/zerospeech2021
