@@ -20,16 +20,22 @@ The VGS+ model combines a wav2vec 2.0-based speech self-supervised learning (SSL
 
 ## Phoneme discrimination score
 
-For obtaining the speech representations from a hidden layer of the speech encoder and decoder you need to run "abx.py" file. As input you need to provide the target layer (0:11) and the path to the model's bundle file.
+For obtaining the speech representations from a hidden layer of the speech encoder and decoder, please first provide the input (data) and output (speech representations) path within the "abx.py" file. 
 
 For measuring the ABX phoneme discrimination score, please follow the instructions in following repository:
 
 https://github.com/zerospeech/zerospeech2021
 
+You can use the template provided at "abx.sh" to obtain abx score for different layers (0:11) of any specific model (specified by the path to the bundle file of the model). 
+
 For test data, you need to download dev-clean subset of LibriSpeech data from https://www.openslr.org/12 .
+
+## Lexical score
+
+For obtaining the speech representations from a hidden layer of the speech encoder and decoder, please first provide the input (data) and output (speech representations) path within the "lexical.py" file.
 
 For measuring the lexical score, please follow the instruction in the following repository:
 
 https://github.com/SPEECHCOG/CDI_lextest
 
-
+You can use the template provided at "lexica.sh" to obtain lexical score for different layers (0:11) of any specific model (specified by the path to the bundle file of the model). 
