@@ -18,4 +18,14 @@ The VGS+ model combines a wav2vec 2.0-based speech self-supervised learning (SSL
 
 # How to Use
 
-[Provide instructions on how to use the model in your repository. Include installation steps, dependencies, and usage examples.]
+For measuring the ABX phoneme discrimination score, please follow the instructions in following repository:
+
+https://github.com/zerospeech/zerospeech2021
+
+For test data, you need to download dev-clean subset of LibriSpeech data from https://www.openslr.org/12 .
+
+For measuring the lexical score, please follow the instruction in the following repository:
+
+https://github.com/SPEECHCOG/CDI_lextest
+
+
