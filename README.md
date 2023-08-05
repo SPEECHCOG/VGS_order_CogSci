@@ -2,7 +2,7 @@
 
 This repository contains the instructions and scripts to replicate experiments reported in:
 
-Khorrami, Cruz Blandon & Räsänen: Computational Insights to Acquisition of Phonemes, Words, and Word Meanings in Early Language: Sequential or Parallel Acquisition? Proc. CogSci-2023, Sydney, Australia. Accepted for publication. (https://escholarship.org/uc/item/79t028n8)
+Khorrami, Cruz Blandon & Räsänen: Computational Insights to Acquisition of Phonemes, Words, and Word Meanings in Early Language: Sequential or Parallel Acquisition? Proc. CogSci-2023, Sydney, Australia. (https://escholarship.org/uc/item/79t028n8)
 
 # Model Source
 
