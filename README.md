@@ -20,7 +20,7 @@ The VGS+ model combines a wav2vec 2.0-based speech self-supervised learning (SSL
 
 ## Phoneme discrimination score
 
-"abx.py" provides the speech representations of a given hidden layer (of the speech encoder and decoder) for ABX task. Please first modify the path to the input data (test audio files) and the path to save the output data (speech representations). 
+"abx.py" provides the speech representations of a given hidden layer (of the speech encoder and decoder) for ABX task. Please first modify the path to the input data (test audio files) and the path to save the output data (speech embeddings). 
 
 For measuring the ABX phoneme discrimination score, please follow the instructions in following repository:
 
@@ -32,7 +32,7 @@ For test data, you need to download dev-clean subset of LibriSpeech data from ht
 
 ## Lexicon discrimination score
 
-"lexical.py" provides the speech representations of a given hidden layer (of the speech encoder and decoder) for lexical task. Please first modify the path to the input data (test audio files) and the path to save the output data (speech representations).
+"lexical.py" provides the speech representations of a given hidden layer (of the speech encoder and decoder) for lexical task. Please first modify the path to the input data (test audio files) and the path to save the output data (speech embeddings).
 
 For measuring the lexical score, please follow the instruction in the following repository:
 
