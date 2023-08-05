@@ -30,7 +30,7 @@ You can use the template provided at "abx.sh" to obtain abx score for different 
 
 For test data, you need to download dev-clean subset of LibriSpeech data from https://www.openslr.org/12 .
 
-## Lexical score
+## Lexicon discrimination score
 
 "lexical.py" provides the speech representations of a given hidden layer (of the speech encoder and decoder) for lexical task. Please first modify the path to the input data (test audio files) and the path to save the output data (speech representations).
 
