@@ -9,8 +9,8 @@ Khorrami, Cruz Blandon & Räsänen: Computational Insights to Acquisition of Pho
 This project's model is based on the work from the following repository:
 
 https://github.com/jasonppy/FaST-VGS-Family
-
-Please make sure to check out the original repository and give credit to the creators for their contributions. 
+ 
+To train the model, please download the code from the above repository and follow the provided instructions. Additionally, please ensure that you give credit to the creators for their contributions to the model.
 
 For setting the weight of the audio (SSL) and audio-visual (VGS) losses (i.e., alpha coefficient), you need to modify the "weight_loss" function within the "steps/trainer.py" file of the model's source code. 
 
